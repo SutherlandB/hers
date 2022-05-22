@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<meta charset="UTF-8">
+<title>Css Flip Book</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="book">
+<input type="checkbox" id="c1">
+<input type="checkbox" id="c2">
+<input type="checkbox" id="c3">
+
+<div class="flip-book">
+<div class="flip" id="p1">
+<div class="back">
+<video width="100%" height="100%" 
+        controls="controls"/> 
+          
+        <source src="IMG_2445.mp4" 
+            type="video/mp4"> 
+</video> 
+<label class="back-btn" for="c1">&lt;--</label>
+</div>
+<div class="front">
+    <p>Happy Birthday Chantal!</p>
+    <div class="cake">
+        <div class="top-layer"></div>
+        <div class="middle-layer"></div>
+        <div class="bottom-layer"></div>
+        <div class="candle"></div>
+    </div>
+
+<label class="next-btn" for="c1">--&gt;</label>
+	</div>
+</div>
+<div class="flip" id="p2">
+<div class="back">
+    <div class="slides slowFade">
+        <div class="slide">
+            <img src="pic1.jpeg" alt="img"/>
+        </div>
+        <div class="slide">
+            <img src="pic2.jpeg" alt="img"/>
+        </div>
+        <div class="slide">
+            <img src="pic3.jpeg" alt="img"/>
+        </div>
+        <div class="slide">
+            <img src="pic4.jpeg" alt="img"/>
+        </div>
+    </div>
+<label class="back-btn" for="c2">&lt;--</label>
+</div>
+<div class="front">
+<p>Your twentieth trip around the Earth!</p>
+
+<img class = "earth" src="earth.png" width="200" height="40" alt="Computer Hope">
+<br>
+<p1>Traveler? Architect? Dancer? How much more can a person do? Here's to your 20th Chanty!! Getting older can't be that bad...</p1>
+<label class="next-btn" for="c2">--&gt;</label>
+	</div>
+</div>
+
+<div class="flip" id="p3">
+<div class="back">
+<label class="back-btn" for="c3">&lt;--</label>
+</div>
+<div class="front">
+<h3>A little gift</h3>
+
+<label class="next-btn" for="c3">--&gt;</label>
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
